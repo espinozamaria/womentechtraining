@@ -1,0 +1,36 @@
+.btn-primary{
+  background-color: red;
+}
+
+.btn{
+  border: transparent;
+}
+.content{
+  font-family: 'Slabo 27px',serif;
+}
+.header{
+    font-family: 'Slabo 27px',serif;
+}
+.format{
+display: block;
+margin: auto;
+max-width: 100%;
+max-height: 100%;
+
+}
+
+.headerr{
+border-style: ridge;
+border-width:thin;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+background-color: whitesmoke;
+}
+
+.bodyy{
+  border-style: ridge;
+  border-width:thin;
+  margin-left: auto;
+  margin-right: auto;
+}
