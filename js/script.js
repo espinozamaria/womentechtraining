@@ -1,8 +1,8 @@
 $(function(){
   $('.carousel').carousel({
-    interval: 2000,
+    interval: 3000,
     pause: false,
-    wrap:false,
+    // wrap:false,
     keyboard: false
   });
 });
