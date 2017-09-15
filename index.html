@@ -6,18 +6,182 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/styles.css">
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <!-- Icons styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts styling -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+    <nav role="navigation" class="navbar navbar-default">
+      <div class="header container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            H&amp;M Auto Repair <i class="fa fa-car"></i>
+          </a>
+        </div>
+      <ul class="nav nav-pills navbar-right">
+        <li class="active"><a data-toggle="pill" href="#home"> Home</a></li>
+        <li><a data-toggle="pill" href="#contactus"> Contact Us</a></li>
+        <li><a data-toggle="pill" href="#services"> Our Services</a></li>
+      </ul>
+      </div>
+    </nav>
+    <!-- End of header container-->
+
+    <!-- This would be a good place to put the carousel! -->
+
+
+
+    <!-- Start of JumboTron -->
+      <!-- <div class="row">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="text-center">Hello, world!</h1>
+            <p>...</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+        ENd of Jumbotron
+      </div> -->
+  <div class="content container">
+    <div class="row">
+      <section class="col-sm-12">
+
+<div class="carousel slide" id="featured">
+  <ol class="carousel-indicators">
+    <li data-target="#featured" data-slide-to="1" class="active"></li>
+    <li data-target="#featured" data-slide-to="2"></li>
+    <li data-target="#featured" data-slide-to="3"></li>
+    <li data-target="#featured" data-slide-to="4"></li>
+    <li data-target="#featured" data-slide-to="5"></li>
+    <li data-target="#featured" data-slide-to="6"></li>
+    <li data-target="#featured" data-slide-to="7"></li>
+  </ol>
+  <div class="carousel-inner">
+    <!-- Images for the carousel -->
+    <div class="item active">
+      <img class="format" src="images/20160226_202435.jpg" alt="Shanghai Night View of SkyLine on the Bund">
+      <div class="carousel-caption">
+        <p>The Night view of the Bund in Shanghai</p>
+      </div>
+    </div>
+    <div class="item">
+      <img class="format" src="images/20160401_113528.jpg">
+    </div>
+    <div class="item">
+      <img class="format" src="images/20170522_100123.jpg">
+    </div>
+    <div class="item">
+      <img class="format" src="images/20170529_104852.jpg">
+    </div>
+    <div class="item">
+      <img class="format" src="images/20170611_145106.jpg">
+    </div>
+    <div class="item">
+      <img class="format" src="images/20170611_150439.jpg">
+    </div>
+    <div class="item">
+      <img class="format" src="images/20170612_201451.jpg">
+    </div> <!-- End of last item in carousel-->
+  </div>  <!-- carousel-inner-->
+  <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+    <span class="fa fa-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+    <span class="fa fa-chevron-right"></span>
+  </a>
+</div>    <!--carousel-->
+</div>
+</div>
+
+<main role="main">
+<!-- /*This allows for formatting of the content*/ -->
+<div class="content container">
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <div class="panel panel-default">
+      <div class="panel-body panel-photo-custom">
+        <img src="images/hmautogooglephoto.jpg" alt="H&amp;M Auto Repair">
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1><strong>H&amp;M Auto Repair</strong></h1>
+      </div>
+      <div class="panel-body">
+        <p> Founded in 2003 by Humberto and Margarita Espinoza in order to follow Humberto's dreams of opening his own auto repair shop. With the support from the city of Huron and the community, H&amp;M was founded.  </p>
+        <p> In more recent years, H&amp;M Auto Repair has been taken into the hands of Alfredo Espinoza, in order to remain a family business, with hopes of expanding it to include a shop in the city of Fresno too.</p>
+        <br>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sequi distinctio facilis quo a, itaque asperiores aut, repellendus qui est quidem, ab quas doloremque recusandae non maiores. Expedita, quam, tempora!</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit rem perspiciatis ex omnis non voluptate, esse reprehenderit et veniam optio, hic deleniti alias sit rerum commodi possimus mollitia facere soluta.</p>
+      </div>
+    </div>
+  </div>
+  <div id="contactus" class="tab-pane fade">
+    <div class="row headerr">
+      <div class="col-md-12">
+        <strong><h1>Huron, CA</h1></strong>
+      </div>
+    </div>
+    <div class="row bodyy">
+      <div class="col-md-12">
+        <br>
+        <p> H&amp;M Auto Repair can be found in the rural city of <a href="https://www.google.com/maps/place/Huron,+CA+93234/@36.205572,-120.090418,14z/data=!3m1!4b1!4m5!3m4!1s0x8094a13005060e1d:0xe8d171a06e10f07f!8m2!3d36.2027308!4d-120.1029177" target="_blank"> Huron, CA</a>, home to less than 7,000 people. </p>
+      </br>
+      <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</h2>
+      <p> <a href="559-945-0805">(559) 945-0805</a></p>
+      <p> For questions or comments, call at this phone number, locally. Appointments can be made ahead of time, but drop-ins are also welcome.</p>
+      <br>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui consectetur at ut accusantium similique maxime architecto nihil nam, dicta, nobis expedita quam voluptatem aut error aliquam enim tenetur, omnis.</p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quaerat corporis omnis, asperiores voluptas. Neque at suscipit excepturi ratione, ipsa eligendi. Consectetur praesentium, aspernatur repellendus! Eligendi numquam, quod provident explicabo!</p>
+    </div>
+  </div>
+  </div>
+  <div id="services" class="tab-pane fade">
+    <div class="row headerr">
+      <div class="col-md-12">
+        <h1> What services we offer </h1>
+      </div>
+    </div>
+    <div class="row bodyy">
+      <div class="col-md-12">
+        <br>
+        <p> Almost anything that can be done in terms of car repair can be done here. Ranging from oil-change to switching the transmission, most auto repairs can be done within a reasonable price. </p>
+        <ul>
+          <li> Oil Change</li>
+          <li> Brakes</li>
+          <li> AC </li>
+          <li> Transmission Repair</li>
+          <li> ...</li>
+          <li> ...</li>
+          <li> ...</li>
+          <li> ...</li>
+          <li> ...</li>
+          <li> ...</li>
+        </ul>
+        <p> For price quotes or questions on duration of repair, call us at <a href="559-945-0805">(559) 945-0805</a>, or come find us in Huron, CA! </p>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="panel-footer panel-footer-custom">
+    Copyright &copy; 2017.  H&amp;M Auto Repair.  <a href="https://www.google.com/maps/place/H+%26+M+Auto+Repair/@36.2023778,-120.1054694,17z/data=!3m1!4b1!4m5!3m4!1s0x8094a12e681decf7:0xc62701eb3e3e6120!8m2!3d36.2023778!4d-120.1032807" target="_blank"> 16923 9th St, Huron, CA 93234. </a> <i class="fa fa-phone-square"></i> <a href="tel://559-945-0805" >(559) 945-0805</a>.
+  </div>
+</div>
+</div>
+</div>
+</div>
+</main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
