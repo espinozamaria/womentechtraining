@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+
+    <title class="icon">H&amp;M Auto Repair</title>
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Icons styling -->
@@ -13,18 +14,20 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Fonts styling -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   </head>
 
   <body>
     <nav role="navigation" class="navbar navbar-default">
       <div class="header container">
         <div class="navbar-header">
+          <br>
           <a href="#" class="navbar-brand">
             H&amp;M Auto Repair <i class="fa fa-car"></i>
           </a>
         </div>
       <ul class="nav nav-pills navbar-right">
+        <br>
         <li class="active"><a data-toggle="pill" href="#home"> Home</a></li>
         <li><a data-toggle="pill" href="#contactus"> Contact Us</a></li>
         <li><a data-toggle="pill" href="#services"> Our Services</a></li>
@@ -34,9 +37,9 @@
     <!-- End of header container-->
 
     <!-- This would be a good place to put the carousel! -->
-
-
-
+<!-- If the carousel were to need to be applied to all tbs, put here.
+Since I don't need it to be displayed on all pages, I relocated it to the first
+tab only instead of keeping it here -->
 
     <!-- Start of JumboTron -->
       <!-- <div class="row">
@@ -49,7 +52,6 @@
         </div>
         ENd of Jumbotron
       </div> -->
-
 
 <main role="main">
 <!-- /*This allows for formatting of the content*/ -->
@@ -136,10 +138,9 @@
       </div>
     </div>
     <div class="row bodyy">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <br>
-        <p> H&amp;M Auto Repair can be found in the rural city of <a href="https://www.google.com/maps/place/Huron,+CA+93234/@36.205572,-120.090418,14z/data=!3m1!4b1!4m5!3m4!1s0x8094a13005060e1d:0xe8d171a06e10f07f!8m2!3d36.2027308!4d-120.1029177" target="_blank"> Huron, CA</a>, home to less than 7,000 people. </p>
-      </br>
+      <p> H&amp;M Auto Repair can be found in the rural city of <a href="https://www.google.com/maps/place/Huron,+CA+93234/@36.205572,-120.090418,14z/data=!3m1!4b1!4m5!3m4!1s0x8094a13005060e1d:0xe8d171a06e10f07f!8m2!3d36.2027308!4d-120.1029177" target="_blank"> Huron, CA</a>, home to less than 7,000 people. </p>
       <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</h2>
       <p> <a href="559-945-0805">(559) 945-0805</a></p>
       <p> For questions or comments, call at this phone number, locally. Appointments can be made ahead of time, but drop-ins are also welcome.</p>
@@ -147,6 +148,11 @@
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus qui consectetur at ut accusantium similique maxime architecto nihil nam, dicta, nobis expedita quam voluptatem aut error aliquam enim tenetur, omnis.</p>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quaerat corporis omnis, asperiores voluptas. Neque at suscipit excepturi ratione, ipsa eligendi. Consectetur praesentium, aspernatur repellendus! Eligendi numquam, quod provident explicabo!</p>
     </div>
+    <div class="col-md-6">
+      <br>
+      <div id="map"></div>
+    </br>
+  </div>
   </div>
   </div>
   <div id="services" class="tab-pane fade">
@@ -184,11 +190,15 @@
 </div>
 </div>
 </main>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
+    <!-- Stuff relating to the map -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7tBjIzixBmtoc4HUvs_2V7Ks2gM7xmH8&callback=myMap">
+    </script>
   </body>
 </html>
