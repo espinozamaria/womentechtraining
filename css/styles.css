@@ -5,20 +5,24 @@
 .btn{
   border: transparent;
 }
+#map{
+  height: 400px;
+  width: 100%;
+  /*margin: auto;*/
+  background-color: grey;
+}
 .content{
-  font-family: 'Slabo 27px',serif;
+font-family: 'Nunito', sans-serif;
 }
 .header{
-    font-family: 'Slabo 27px',serif;
+font-family: 'Nunito', sans-serif;
 }
 .format{
 display: block;
 margin: auto;
 max-width: 100%;
 max-height: 100%;
-
 }
-
 .headerr{
 border-style: ridge;
 border-width:thin;
@@ -27,14 +31,36 @@ margin-right: auto;
 margin-top: 20px;
 background-color: whitesmoke;
 }
-
 .colour{
   background-color: whitesmoke;
 }
-
 .bodyy{
   border-style: ridge;
   border-width:thin;
   margin-left: auto;
   margin-right: auto;
 }
+.form{
+
+}
+
+/*Formatting of the Nabbar */
+.navbar-default .navbar-brand{
+   color: white;
+}
+.navbar-default{
+  background-color: #999999;
+}
+.nav-pills{
+  background-color: #999999;
+}
+.nav>li>.a{
+  background-color: white;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #999999;
+}
+a{
+  color: #333;
+}
+/*End of formatting of the navbar*/
