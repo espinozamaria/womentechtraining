@@ -40,9 +40,10 @@ background-color: whitesmoke;
   margin-left: auto;
   margin-right: auto;
 }
-.form{
-
+.btn{
+ background-color: whitesmoke;
 }
+
 
 /*Formatting of the Nabbar */
 .navbar-default .navbar-brand{
