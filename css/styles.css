@@ -40,6 +40,11 @@ background-color: whitesmoke;
   margin-left: auto;
   margin-right: auto;
 }
+.form{
+position: center;
+}
+
+/*Formatting of the Nabbar */
 .navbar-default .navbar-brand{
    color: white;
 }
@@ -58,3 +63,4 @@ background-color: whitesmoke;
 a{
   color: #333;
 }
+/*End of formatting of the navbar*/
